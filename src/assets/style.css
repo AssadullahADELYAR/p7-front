@@ -1,0 +1,224 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   background-color: #eeeeee;
+   font-family: "Montserrat", sans-serif;
+   font-size: 16px;
+   font-weight: 300;
+}
+
+.container {
+   max-width: 768px;
+   /* background-color: #fff; */
+   margin: 0 auto;
+   padding: 1rem;
+}
+/* .bg-white {
+      background-color: #fff;
+      margin-top: 30px;
+      border-radius: 8px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+   } */
+
+/*------------------ Top Nav -------------------*/
+header {
+   height: 60px;
+   width: 100%;
+   background-color: #fff;
+
+   box-shadow: rgb(17 17 26 / 10%) 0px 2px 3px;
+}
+.top-nav {
+   max-width: 768px;
+   display: flex;
+   align-content: center;
+   align-items: center;
+   justify-content: space-between;
+   padding: 5px 1rem;
+   margin: 0 auto;
+}
+
+/* .logo {
+      height: 50px;
+      width: auto;
+   }
+   .logo img {
+      height: 100%;
+      width: auto;
+   } */
+
+/*------------------- Sign Up ------------------*/
+.form-container {
+   background-color: #fafafa;
+   max-width: 375px;
+   margin: 0 auto;
+   margin-top: 5%;
+   padding: 35px;
+   border-radius: 10px;
+   box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+}
+.form-container h2 {
+   text-align: center;
+   margin-bottom: 30px;
+}
+.form {
+   width: 100%;
+}
+.form label {
+   display: block;
+   margin-bottom: 5px;
+}
+.form input {
+   display: block;
+   width: 100%;
+   background: #fff;
+   margin-bottom: 15px;
+   padding: 8px;
+   border-radius: 6px;
+   outline: none;
+   border: 2px solid #eeeeee;
+   font-size: 14px;
+   color: #646464;
+}
+input::placeholder {
+   color: #e5e5e5;
+}
+.button {
+   display: block;
+   width: 100%;
+   margin: 30px 0;
+   padding: 0px 15px;
+   border-radius: 6px;
+   outline: none;
+   border: none;
+   font-size: 16px;
+   line-height: 40px;
+   color: #646464;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+   cursor: pointer;
+}
+.btn-small {
+   margin: 30px 0;
+   padding: 0px 15px;
+   border-radius: 6px;
+   outline: none;
+   border: none;
+   font-size: 16px;
+   line-height: 40px;
+   color: #646464;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+/*-------------------- User Profile -------------------*/
+
+.user-detail {
+   /* height: 80vh; */
+   background-color: #fff;
+   margin-top: 30px;
+   padding: 30px;
+   border-radius: 8px;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.user-profile-image {
+   height: 130px;
+   width: 130px;
+   border-radius: 50%;
+   margin-right: 20px;
+   /* border: 1px solid; */
+   overflow: hidden;
+}
+.user-profile-image img {
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   vertical-align: middle;
+   object-fit: cover;
+}
+.user-detail p {
+   margin: 35px 0;
+   padding-bottom: 5px;
+   border-bottom: 1px solid #c3c3c3;
+}
+
+.user-lable {
+   width: 20%;
+   display: inline-block;
+   font-weight: 500;
+}
+
+/*----------------- post ----------------*/
+.single-post {
+   background-color: #fff;
+   padding: 15px;
+   border: 1px solid rgb(0 0 0 / 16%);
+   border-radius: 8px;
+   margin-bottom: 30px;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.post-owner {
+   height: 50px;
+   margin-bottom: 20px;
+   display: flex;
+   align-items: center;
+   align-content: center;
+}
+.user-image {
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   margin-right: 20px;
+   /* border: 1px solid; */
+   overflow: hidden;
+}
+.user-image img {
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   vertical-align: middle;
+   object-fit: cover;
+}
+.post-owner p {
+   width: 100%;
+}
+.post-text {
+   padding-bottom: 20px;
+}
+
+.post-image {
+   width: 100%;
+}
+.post-image img {
+   width: 100%;
+   height: 600px;
+   max-height: 100%;
+   object-fit: cover;
+}
+
+/*---------------------- New Post --------------------*/
+.new-post {
+   height: 50px;
+   display: flex;
+   align-items: center;
+   align-content: center;
+}
+.create-post {
+   color: #858585;
+   text-align: left;
+   display: block;
+   width: 100%;
+   padding: 10px;
+   padding-left: 20px;
+   font-size: 15px;
+   border-radius: 25px;
+   border: none;
+   box-shadow: rgb(50 50 93 / 20%) 0px 0px 0px -7px inset,
+      rgb(0 0 0 / 25%) 0px 5px 2px -5px inset;
+   cursor: pointer;
+   transition: 1s;
+}
+.create-post:hover {
+   background-color: #dfdfdf;
+}
